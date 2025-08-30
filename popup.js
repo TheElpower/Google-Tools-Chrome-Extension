@@ -4,11 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const defaultLinks = [
     { name: 'Google', url: 'https://www.google.com' },
-    { name: 'Gmail', url: 'https://gmail.pt' },
+    { name: 'Gmail', url: 'https://gmail.com' },
     { name: 'Gemini', url: 'https://gemini.google.com/app' },
     { name: 'AI Studio', url: 'https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-pro-preview-05-06' },
     { name: 'Flow', url: 'https://labs.google/fx/tools/flow' },
-    { name: 'Jules', url: 'https://jules.google/' }
+    { name: 'Jules', url: 'https://jules.google/' },
+    { name: 'Whisk', url: 'https://labs.google/fx/tools/whisk' },
+    { name: 'Labs', url: 'https://labs.google/' },
+    { name: 'Youtube', url: 'https://www.youtube.com/' }
   ];
 
   function loadLinks() {
